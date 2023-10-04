@@ -1,5 +1,5 @@
 {
-  "name": "headlesscms-frontend",
+  "name": "headlesscms-next-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "encoding": "^0.1.13",
+    "escape-html": "^1.0.3",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "slate": "^0.94.1"
   }
 }
